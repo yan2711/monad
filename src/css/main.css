@@ -7,9 +7,14 @@ body {
 
 .header-container {
   margin-top: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-around;
-  align-items: center; }
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
 
 .header-logo {
   width: 60%;
@@ -32,6 +37,8 @@ body {
   text-align: left; }
 
 .transitions {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   font-family: Montserrat;
   font-size: 16px;
@@ -101,8 +108,12 @@ body {
   margin-top: 132px; }
 
 .wrapper-community {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center; }
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
 
 .block-community__title {
   font-family: Montserrat;
@@ -137,9 +148,15 @@ body {
   color: #ededed; }
 
 .block-community__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   text-align: center; }
 
 .roles-wrapper__title {
@@ -176,11 +193,17 @@ body {
   padding: 108px, 20px, 40px, 20px;
   border-radius: 20px;
   background-color: #1c1c1c;
-  align-items: center; }
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
 
 .roles-img {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   margin-left: 16px;
   position: absolute;
   margin-top: -83px; }
@@ -194,9 +217,16 @@ body {
   margin: 120px 0; }
 
 .poap-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-  align-items: center; }
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
 
 .poap-block__title {
   font-size: 40px;
@@ -207,18 +237,26 @@ body {
   padding-bottom: 40px; }
 
 .poap-block__cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex; }
 
 .poap-block__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   margin-right: 24px;
   width: 628px;
   height: 160px;
   border-radius: 20px;
   background-color: #1c1c1c;
-  align-items: center; }
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
 
 .poap-wrapper__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex; }
 
 .poap-wrapper__img {
@@ -243,26 +281,136 @@ body {
   letter-spacing: 0em;
   text-align: left; }
 
+.news {
+  color: white;
+  font-family: Montserrat;
+  margin: 120px 0; }
+
+.news-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+
+.news-block__title {
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 48px;
+  letter-spacing: 0em;
+  text-align: center;
+  padding-bottom: 20px; }
+
+.news-block__subtitle {
+  padding-bottom: 72px;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: center; }
+
+.news-block__cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+
+.news-block__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-right: 24px;
+  width: 628px;
+  height: 160px;
+  border-radius: 20px;
+  background-color: #1c1c1c;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+
+.news-wrapper__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+
+.news-wrapper__img {
+  padding: 0 15px; }
+
+.news-wrapper__text {
+  padding-right: 16px; }
+
+.news-wrapper__title {
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left; }
+
+.news-wrapper__subtitle {
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left; }
+
+.news-block__two {
+  padding-top: 24px; }
+
+.btn-news {
+  margin-left: 44.5%;
+  margin-top: 28px;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: center;
+  border: 1px solid #836ff9;
+  background-color: rgba(0, 0, 0, 0);
+  color: #fff;
+  padding: 12px 47px;
+  border-radius: 20px;
+  cursor: pointer; }
+
 .grant {
   color: white;
   font-family: Montserrat; }
 
 .grant-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center; }
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
 
 .grant-block__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   margin-right: 24px;
   height: 536px;
   width: 1280px;
   border-radius: 20px;
   background-color: #1a0144;
-  align-items: center; }
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
 
 .grant-wrapper__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   padding: 0 52px 0 52px; }
 
 .grant-wrapper__text {
@@ -288,9 +436,16 @@ body {
   font-family: Montserrat; }
 
 .ecosys-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-  align-items: center; }
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
 
 .ecosys-block__title {
   margin-top: 120px;
@@ -313,18 +468,28 @@ body {
   margin-top: 72px; }
 
 .ecosys-block__row {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex; }
 
 .ecosys-row__card {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   width: 620px;
   height: 240px;
   padding-right: 40px; }
 
 .ecosys-card__img {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   width: 240px;
   height: 240px;
   border-radius: 20px;
@@ -333,8 +498,13 @@ body {
 .ecosys-card__text {
   width: 364px;
   padding-left: 16px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column; }
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column; }
 
 .ecosys-card__title {
   font-family: Montserrat;
@@ -350,8 +520,12 @@ body {
   letter-spacing: 0em; }
 
 .ecosys-card__btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: flex-end;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
   height: 130px; }
 
 .ecosys-card__btn button {
@@ -367,9 +541,15 @@ body {
 
 .article {
   color: #ededed;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   margin-top: 60px;
   font-family: Inter; }
 
@@ -449,8 +629,12 @@ body {
   cursor: pointer; }
 
 .footer-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   color: #ededed;
   padding: 36px 0 40px 80px;
   width: 740px; }
@@ -505,3 +689,5 @@ body {
   letter-spacing: 0em;
   text-decoration: none;
   color: #ededed; }
+
+/*# sourceMappingURL=main.css.map */
