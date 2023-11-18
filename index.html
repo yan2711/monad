@@ -4,9 +4,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="src/css/main.css">
+    <link rel="stylesheet" href="src/css/menu.css">
     <title>monad</title>
 </head>
 <body>
+    <nav class="navbar">
+        <div class="container">
+          <div class="navbar__wrap">
+            <div class="hamb">
+              <div class="hamb__field" id="hamb">
+                <span class="bar"></span> <span class="bar"></span>
+                <span class="bar"></span>
+              </div>
+              <ul class="menu" id="menu">
+              <li><a href="#">Community</a></li>
+              <li><a href="#">Ecosystem</a></li>
+              <li><a href="#">News</a></li>
+              
+            </ul>
+            </div>
+            
+          </div>
+        </div>
+      </nav>
+      <div class="popup" id="popup"></div>
     <header class="header-block">
         <div class="header-container">
             <img src="src/img/Exclude.png" alt="">
@@ -216,69 +237,6 @@
      </div>
     </section>
 
-    <section class="news">
-        <div class="news-block">
-         <div class="news-block__title">News</div>
-         <div class="news-block__subtitle"> Stay up to date with all market events</div>
-
-         <div class="news-block__cards">
-         <div class="news-block__wrapper">
-          <div class="news-wrapper__content">
-          <div class="news-wrapper__img">
-           <img src="src/img/news/news1.png" alt="#">
-          </div>
-          <div class="news-wrapper__text">
-           <div class="news-wrapper__title">Daily Analysis: BTC, ETH, BONE, BAKE, LPT</div>
-           <div class="news-wrapper__subtitle">26.08.2023</div>
-           </div>
-          </div>
-         </div>
-         <div class="news-block__wrapper">
-          <div class="news-wrapper__content">
-          <div class="news-wrapper__img">
-           <img src="src/img/news/news2.png" alt="#">
-          </div>
-          <div class="news-wrapper__text">
-           <div class="news-wrapper__title">Daily Analysis: BTC, ETH, BONE, BAKE, LPT</div>
-           <div class="news-wrapper__subtitle">25.08.2023</div>
-           </div>
-          </div>
-         </div>
-        </div>
-        </div>
-        <div class="news-block news-block__two">
-            <div class="news-block__cards">
-            <div class="news-block__wrapper">
-             <div class="news-wrapper__content">
-             <div class="news-wrapper__img">
-              <img src="src/img/news/news1.png" alt="#">
-             </div>
-             <div class="news-wrapper__text">
-              <div class="news-wrapper__title">Daily Analysis: BTC, ETH, BONE, BAKE, LPT</div>
-              <div class="news-wrapper__subtitle">26.08.2023</div>
-              </div>
-             </div>
-            </div>
-            <div class="news-block__wrapper">
-             <div class="news-wrapper__content">
-             <div class="news-wrapper__img">
-              <img src="src/img/news/news2.png" alt="#">
-             </div>
-             <div class="news-wrapper__text">
-              <div class="news-wrapper__title">Daily Analysis: BTC, ETH, BONE, BAKE, LPT</div>
-              <div class="news-wrapper__subtitle">25.08.2023</div>
-              </div>
-             </div>
-            </div>
-           </div>
-           </div>
-           <button class="btn-news">View more</button>
-
-       </section>
-
-      
-
-
     <section class="footer">
      <div class="footer-block">
       <div class="footer-block__community">
@@ -305,5 +263,6 @@
       </div>
      </div>
     </section>
+    <script src="src/js/index.js"></script>
 </body>
 </html>
